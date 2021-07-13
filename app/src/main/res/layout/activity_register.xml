@@ -16,7 +16,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="5dp"
-        android:text="REGISTRASI"
+        android:text="@string/registrasi"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -39,23 +39,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:hint="Email"
-                android:inputType="textEmailAddress" />
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:autofillHints="" />
 
             <EditText
                 android:id="@+id/edt_password_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Password"
-                android:inputType="textPassword" />
-
-            <EditText
-                android:id="@+id/edt_no_telp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:hint="NoTelp"
-                android:inputType="number" />
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:importantForAutofill="no" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_sign_up"
@@ -63,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:background="@color/teal_200"
-                android:text="Register"
+                android:text="@string/register"
                 android:textColor="@android:color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -78,7 +72,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="5dp"
                 android:background="@color/white"
-                android:text="Sudah punya akun? Login Disini"
+                android:text="@string/sudah_punya_akun_login_disini"
                 android:textAllCaps="false" />
 
         </LinearLayout>

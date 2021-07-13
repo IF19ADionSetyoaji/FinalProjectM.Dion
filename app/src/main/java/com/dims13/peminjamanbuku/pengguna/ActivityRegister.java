@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class ActivityRegister extends AppCompatActivity {
 
-    private EditText edtEmail, edtPassword, edtNoTelp;
+    private EditText edtEmail, edtPassword;
     private Button btnRegister, btnLogin;
     private FirebaseAuth auth;
 
@@ -45,7 +45,6 @@ public class ActivityRegister extends AppCompatActivity {
                 //menampung imputan user
                 String emailUser = edtEmail.getText().toString().trim();
                 String passwordUser = edtPassword.getText().toString().trim();
-                String nomortelponUser = edtNoTelp.getText().toString().trim();
 
                 //validasi email dan password
                 // jika email kosong
@@ -63,14 +62,7 @@ public class ActivityRegister extends AppCompatActivity {
                 //jika password kurang dari 6 karakter
                 else if (passwordUser.length() < 6) {
                     edtPassword.setError("Password minimal terdiri dari 6 karakter");
-                }
-                // jika NoTelp kosong
-                if (nomortelponUser.isEmpty()) {
-                    edtNoTelp.setError("NoTelp tidak boleh kosong");
-                }
-                // jika no not valid
-                else if (!Patterns.PHONE.matcher(emailUser).matches()) {
-                    edtNoTelp.setError("Masukan NoTelp yang benar");
+
                 } else {
                     //create user dengan firebase auth
                     auth.createUserWithEmailAndPassword(emailUser, passwordUser)
@@ -96,7 +88,6 @@ public class ActivityRegister extends AppCompatActivity {
     private void initView() {
         edtEmail = findViewById(R.id.edt_email_register);
         edtPassword = findViewById(R.id.edt_password_register);
-        edtNoTelp = findViewById(R.id.edt_no_telp);
         btnLogin = findViewById(R.id.btn_login);
         btnRegister = findViewById(R.id.btn_sign_up);
         auth = FirebaseAuth.getInstance();

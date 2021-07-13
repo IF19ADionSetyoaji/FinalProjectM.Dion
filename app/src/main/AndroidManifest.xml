@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PeminjamanBuku">
-        <activity android:name=".admin.AdminActivity"></activity>
+        <activity android:name=".databuku.ActivityDatabuku"></activity>
+        <activity android:name=".admin.AdminActivity" />
         <activity android:name=".pengguna.ActivityRegister" />
         <activity android:name=".pengguna.HalamanLogin">
             <intent-filter>

@@ -7,10 +7,11 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import com.dims13.peminjamanbuku.R;
+import com.dims13.peminjamanbuku.databuku.ActivityDatabuku;
 import com.dims13.peminjamanbuku.pengguna.HalamanLogin;
 
 public class AdminActivity extends AppCompatActivity {
-    private Button btnkeluar;
+    private Button btnkeluar, btndatabuku;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,10 +21,12 @@ public class AdminActivity extends AppCompatActivity {
         initView();
         keluar();
     }
-    private void keluar(){
+
+    private void keluar() {
         btnkeluar.setOnClickListener(view -> startActivity(new Intent(AdminActivity.this, HalamanLogin.class)));
     }
-    private void initView(){
+
+    private void initView() {
         btnkeluar = findViewById(R.id.btnkeluar);
     }
 }
