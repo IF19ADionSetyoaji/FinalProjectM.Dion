@@ -11,7 +11,7 @@
 
     <ImageView
         android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:src="@drawable/logologin" />
 
     <TextView
@@ -59,8 +59,8 @@
                 android:id="@+id/btn_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:background="@color/teal_200"
                 android:text="Login"
                 android:textColor="@android:color/white" />
@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="5dp"
-                android:background="@color/white"
+                android:background="@color/teal_200"
                 android:text="Belum punya akun? Daftar Disini"
                 android:textAllCaps="false" />
 
