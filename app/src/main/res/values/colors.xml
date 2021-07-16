@@ -11,4 +11,28 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gold">#FFFFCC00</color>
+    <color name="Violet">#FF800080</color>
+    <color name="Ivory">#FFFFFFCC</color>
+    <color name="lightorange">#FFFF9900</color>
+    <color name="DarkTeal">#FF003366</color>
+    <color name="Brown">#FF993300</color>
+    <color name="LightYellow">#FFFFFF99</color>
+    <color name="Coral">#FFFF8080</color>
+    <color name="SeaGreen">#FF339966</color>
+    <color name="BrightGreen">#FF00FF00</color>
+    <color name="DarkYellow">#FF808000</color>
+    <color name="LightTurquoise">#FFCCFFFF</color>
+    <color name="DarkRed">#FF800000</color>
+    <color name="PaleBlue">#FF99CCFF</color>
+
+
+
+
+    
+
+    
+
+
+
 </resources>
