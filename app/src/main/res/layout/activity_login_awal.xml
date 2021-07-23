@@ -8,6 +8,12 @@
     android:padding="10dp"
     tools:context="com.dims13.peminjamanbuku.LoginAwalActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:srcCompat="@mipmap/ic_launcher_background" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +41,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/dark_blue"
-        android:text="Login Untuk pengguna"
+        android:text="Login Untuk Pengguna"
         android:textSize="14sp"
         android:textStyle="bold" />
 
