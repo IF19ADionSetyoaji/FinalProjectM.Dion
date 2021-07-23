@@ -3,27 +3,40 @@
     package="com.dims13.peminjamanbuku">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logologin"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PeminjamanBuku">
-        <activity android:name=".databuku.ActivityDatabuku"></activity>
-        <activity android:name=".admin.AdminActivity" />
-        <activity android:name=".pengguna.ActivityRegister" />
-        <activity android:name=".pengguna.HalamanLogin">
+
+        <activity android:name="com.dims13.peminjamanbuku.SplashscreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity android:name="com.dims13.peminjamanbuku.LoginAwalActivity" />
+        <activity android:name="com.dims13.peminjamanbuku.RegisterActivity" />
+        <activity android:name="com.dims13.peminjamanbuku.LoginActivity" />
+        <activity android:name="com.dims13.peminjamanbuku.HomeAdminActivity" />
+        <activity android:name="com.dims13.peminjamanbuku.LoginAdminActivity" />
+        <activity android:name="com.dims13.peminjamanbuku.MainActivity" />
+
+        <!--AKSES ADMIN-->
+        <activity android:name="com.dims13.peminjamanbuku.admin.TambahBuku" />
+        <activity android:name="com.dims13.peminjamanbuku.admin.LihatBuku" />
+        <activity android:name="com.dims13.peminjamanbuku.admin.UpdateBuku" />
+        <activity android:name="com.dims13.peminjamanbuku.admin.LihatPeminjam"/>
+
+        <!--PENGGUNA-->
+        <activity android:name="com.dims13.peminjamanbuku.pengguna.LihatBuku"/>
+        <activity android:name="com.dims13.peminjamanbuku.pengguna.PinjamBuku">
+
+        </activity>
+    </application>
 </manifest>

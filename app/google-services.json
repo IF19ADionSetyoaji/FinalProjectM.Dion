@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "675660716216",
-    "project_id": "db-pinjam-buku",
-    "storage_bucket": "db-pinjam-buku.appspot.com"
+    "project_number": "640697749080",
+    "firebase_url": "https://sewabuku-4b5d0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sewabuku-4b5d0",
+    "storage_bucket": "sewabuku-4b5d0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:675660716216:android:26716a863e57ebd018bc4d",
+        "mobilesdk_app_id": "1:640697749080:android:c31f3a4f82cdbec089842d",
         "android_client_info": {
           "package_name": "com.dims13.peminjamanbuku"
         }
       },
       "oauth_client": [
         {
-          "client_id": "675660716216-efmnp3v9onask8rr476piajl6egltms8.apps.googleusercontent.com",
+          "client_id": "640697749080-ng107q0goom6m3p4ntv44oda9sje5mfr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDcVlZUxmgypGAX1efMTf3YI5YFbuca7MM"
+          "current_key": "AIzaSyCjGBQJ9gyzw5bAcxZ6eHqcsNvaepbu60A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "675660716216-efmnp3v9onask8rr476piajl6egltms8.apps.googleusercontent.com",
+              "client_id": "640697749080-ng107q0goom6m3p4ntv44oda9sje5mfr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
