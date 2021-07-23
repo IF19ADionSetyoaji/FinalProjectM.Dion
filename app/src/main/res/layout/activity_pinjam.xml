@@ -34,7 +34,7 @@
                     android:hint="Judul" />
 
                 <TextView
-                    android:id="@+id/nama_loket"
+                    android:id="@+id/kode_buku"
                     android:layout_width="match_parent"
                     android:layout_height="99dp"
                     android:gravity="left"

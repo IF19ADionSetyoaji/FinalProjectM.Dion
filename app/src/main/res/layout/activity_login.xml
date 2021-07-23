@@ -69,7 +69,7 @@
         android:textColor="#3F51B5"
         android:textStyle="bold"
         android:textSize="14sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:importantForAutofill="no"
         tools:ignore="RtlSymmetry"
         android:paddingLeft="20dp"
@@ -86,14 +86,14 @@
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:textColor="#FFF"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="45dp"/>
 
 
     <TextView
         android:id="@+id/tv_to_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/don_t_have_an_account_sign_up"
+        android:text="Tidak punya akun? Buat Akun"
         android:textColor="#3F51B5"
         android:textStyle="bold"
         android:textSize="13sp"
@@ -105,7 +105,7 @@
         android:id="@+id/verifikasi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/your_email_is_unverified_click_here_to_resend_the_verification" />
+        android:text="Klik untuk verifikasi email, buka email yang telah anda daftarkan" />
 
         </LinearLayout>
     </ScrollView>

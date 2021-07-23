@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
     android:orientation="vertical"
     tools:context="com.dims13.peminjamanbuku.HomeAdminActivity">
 
@@ -12,39 +11,40 @@
         android:id="@+id/add_book"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ADD NEW BOOK"
+        android:text="TAMBAH BUKU BARU"
         android:layout_gravity="center_horizontal"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:layout_marginTop="250dp"
-        android:backgroundTint="@color/orange"/>
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/blue"/>
     <Button
         android:id="@+id/see_book"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SEE MY BOOK"
+        android:text="LIHAT DAFTAR BUKU"
         android:layout_gravity="center_horizontal"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:backgroundTint="@color/orange"/>
+        android:backgroundTint="@color/blue"/>
 
     <Button
         android:id="@+id/peminjam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PEMINJAM"
+        android:text="LIHAT PEMINJAM"
         android:layout_gravity="center_horizontal"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:backgroundTint="@color/orange"/>
+        android:backgroundTint="@color/blue"/>
 
     <Button
         android:id="@+id/logoutadmin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="logout"
+        android:text="KELUAR"
         android:layout_gravity="center_horizontal"
         android:textStyle="bold"
+        android:backgroundTint="@color/material_on_surface_stroke"
         android:layout_marginTop="30dp"/>
 
 </LinearLayout>

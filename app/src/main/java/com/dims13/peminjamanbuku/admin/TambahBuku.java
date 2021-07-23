@@ -75,7 +75,7 @@ public class TambahBuku extends AppCompatActivity {
 
         //TEXT Biasa
         namabuku= findViewById(R.id.namabuku);
-        nama_loket= findViewById(R.id.nama_loket);
+        nama_loket= findViewById(R.id.kode_buku);
         harga=findViewById(R.id.harga);
 
         //Date Picker

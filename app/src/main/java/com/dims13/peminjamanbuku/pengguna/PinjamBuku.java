@@ -54,7 +54,7 @@ public class PinjamBuku extends AppCompatActivity {
 
         //TEXT Biasa
         namabuku = findViewById(R.id.namabuku);
-        nama_loket = findViewById(R.id.nama_loket);
+        nama_loket = findViewById(R.id.kode_buku);
         gambar = findViewById(R.id.imgView2);
 
         //tgl lahir

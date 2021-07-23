@@ -4,38 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context="com.dims13.peminjamanbuku.LoginAwalActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Apakah Kamu ingin Login?? :"
-        android:textStyle="bold"
-        android:textSize="20sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="220dp"/>
+        android:layout_marginTop="220dp"
+        android:text="Login Sebagai:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login_as_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/light_blue"
+        android:text="Login untuk admin"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/login_as_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_blue"
         android:text="Login Untuk pengguna"
-        android:layout_gravity="center_horizontal"
         android:textSize="14sp"
-        android:textStyle="bold"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/dark_blue"/>
-    <Button
-        android:id="@+id/login_as_admin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login untuk admin"
-        android:layout_gravity="center_horizontal"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        android:backgroundTint="@color/orange"/>
+        android:textStyle="bold" />
 
 
 </LinearLayout>
