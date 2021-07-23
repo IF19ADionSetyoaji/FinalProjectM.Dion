@@ -18,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 
 import com.dims13.peminjamanbuku.R;
+import com.dims13.peminjamanbuku.admin.LihatPeminjam;
 import com.dims13.peminjamanbuku.databuku.Buku;
 import com.dims13.peminjamanbuku.pengguna.PinjamBuku;
 
@@ -41,7 +42,7 @@ public class AdapterPeminjam extends RecyclerView.Adapter<AdapterPeminjam.ViewHo
         this.listKonten2 = listKonten2;
         listKonten2_full = new ArrayList<>(listKonten2);
         this.context = context;
-        listener2 = (dataListener) context;
+        listener2 = (LihatPeminjam) context;
     }
 
     @NonNull

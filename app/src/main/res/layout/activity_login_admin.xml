@@ -14,48 +14,54 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LOGIN ADMIN"
-            android:textColor="#3F51B5"
-            android:layout_marginBottom="30dp"
-            android:layout_marginTop="70dp"
-            android:textSize="28sp"
-            android:textStyle="bold"
-            android:letterSpacing="0.03"
-            android:layout_gravity="center_horizontal"/>
-
-        <EditText
-            android:id="@+id/edtPasswordAdmin"
-            android:inputType="textPassword"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:hint=" Password"
-            android:background="#E4F5FD"
-            android:textColor="#3F51B5"
-            android:textStyle="bold"
-            android:textSize="14sp"
-            android:layout_marginTop="20dp"
-            android:paddingStart="20dp"
-            android:drawableStart="@drawable/ic_lock" />
-
-
-        <Button
-            android:id="@+id/btnLoginAdmin"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:backgroundTint="#3F51B5"
-            android:text="Login "
-            android:textSize="18sp"
-            android:textStyle="bold"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:textColor="#FFF"
-            android:layout_marginTop="60dp"/>
+            android:orientation="vertical"
+            android:padding="10dp">
 
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN ADMIN"
+                android:textColor="#3F51B5"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="70dp"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.03"
+                android:layout_gravity="center_horizontal"/>
 
+            <EditText
+                android:id="@+id/edtPasswordAdmin"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawableStart="@drawable/ic_lock"
+                android:hint=" Password"
+                android:background="#E4F5FD"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"/>
+
+
+            <Button
+                android:id="@+id/btnLoginAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="#3F51B5"
+                android:text="Login "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFF"
+                android:layout_marginTop="60dp"/>
+
+
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

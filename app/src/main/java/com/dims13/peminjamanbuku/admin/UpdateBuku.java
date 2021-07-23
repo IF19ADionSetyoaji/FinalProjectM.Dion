@@ -174,7 +174,7 @@ public class UpdateBuku extends AppCompatActivity {
                                     .child(getKey)
                                     .setValue(new Buku(getNama_buku, getNama_loket, getHarga, taskSnapshot.getUploadSessionUri().toString(), cekpeminjam, cektanggal));
                             //Toast.makeText(UpdateProfile.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(UpdateBuku.this, com.dims13.peminjamanbuku.admin.LihatBuku.class));
+                            startActivity(new Intent(UpdateBuku.this, LihatBuku.class));
                         }
                     })
                     .addOnFailureListener(new OnFailureListener() {
@@ -210,7 +210,7 @@ public class UpdateBuku extends AppCompatActivity {
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
-                        startActivity(new Intent(UpdateBuku.this, com.dims13.peminjamanbuku.admin.LihatBuku.class));
+                        startActivity(new Intent(UpdateBuku.this, LihatBuku.class));
                     }
 
                     ;

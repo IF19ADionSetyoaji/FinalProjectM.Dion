@@ -42,7 +42,7 @@ public class AdapterUser extends RecyclerView.Adapter<AdapterUser.ViewHolder> im
         this.listKonten2 = listKonten2;
         listKonten2_full = new ArrayList<>(listKonten2);
         this.context = context;
-        listener2 = (dataListener) context;
+        listener2 = (LihatBuku) context;
     }
 
     @NonNull

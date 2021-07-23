@@ -18,6 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.dims13.peminjamanbuku.admin.LihatBuku;
 import com.dims13.peminjamanbuku.admin.UpdateBuku;
 import com.dims13.peminjamanbuku.databuku.Buku;
 
@@ -43,7 +44,7 @@ public class RecyclerViewAdapterAdmin extends RecyclerView.Adapter<RecyclerViewA
         this.listBuku = listBuku;
         listBuku_full = new ArrayList<>(listBuku);
         this.context = context;
-        listener2 = (dataListener) context;
+        listener2 = (LihatBuku)context;
     }
 
     @NonNull
