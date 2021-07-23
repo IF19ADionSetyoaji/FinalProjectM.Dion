@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dims13.peminjamanbuku.pengguna.LihatBuku">
+    tools:context="com.dims13.peminjamanbuku.admin.LihatBuku">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
@@ -21,6 +21,6 @@
         android:layout_marginEnd="20dp"
         android:src="@drawable/ic_add"
         android:layout_marginBottom="20dp"
-        android:contentDescription="@string/todo" />
+        tools:ignore="ContentDescription" />
 
 </RelativeLayout>
