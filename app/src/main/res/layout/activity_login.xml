@@ -22,90 +22,90 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_user"
-        android:textColor="#3F51B5"
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="70dp"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:letterSpacing="0.03"
-        android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="30dp"
+                android:letterSpacing="0.03"
+                android:text="@string/login_user"
+                android:textColor="#3F51B5"
+                android:textSize="28sp"
+                android:textStyle="bold" />
 
-    <ImageView
-    android:layout_width="150dp"
-    android:layout_height="140dp"
-    android:src="@drawable/logologin"
-    android:layout_gravity="center_horizontal"
-        android:contentDescription="@string/todo" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/logologin" />
 
-    <EditText
-        android:id="@+id/edtEmailLogin"
-        android:inputType="textEmailAddress"
-        android:drawableStart="@drawable/ic_email"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:hint="@string/email"
-        android:background="#E4F5FD"
-        android:textColor="#3F51B5"
-        android:textStyle="bold"
-        android:textSize="14sp"
-        android:layout_marginTop="10dp"
-        android:paddingStart="20dp"
-        android:importantForAutofill="no"
-        tools:ignore="RtlSymmetry"
-        android:drawableLeft="@drawable/ic_email"
-        android:paddingLeft="20dp" />
+            <EditText
+                android:id="@+id/edtEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="#E4F5FD"
+                android:drawableStart="@drawable/ic_email"
+                android:drawableLeft="@drawable/ic_email"
+                android:hint="@string/email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="#3F51B5"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry" />
 
-    <EditText
-        android:id="@+id/edtPasswordLogin"
-        android:inputType="textPassword"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:hint="@string/password"
-        android:background="#E4F5FD"
-        android:textColor="#3F51B5"
-        android:textStyle="bold"
-        android:textSize="14sp"
-        android:layout_marginTop="15dp"
-        android:importantForAutofill="no"
-        tools:ignore="RtlSymmetry"
-        android:paddingLeft="20dp"
-        android:drawableLeft="@drawable/ic_lock" />
-
-
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:backgroundTint="#3F51B5"
-        android:text="@string/login"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:textColor="#FFF"
-        android:layout_marginTop="45dp"/>
+            <EditText
+                android:id="@+id/edtPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="#E4F5FD"
+                android:drawableLeft="@drawable/ic_lock"
+                android:hint="@string/password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:textColor="#3F51B5"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry" />
 
 
-    <TextView
-        android:id="@+id/tv_to_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tidak punya akun? Buat Akun"
-        android:textColor="#3F51B5"
-        android:textStyle="bold"
-        android:textSize="13sp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:backgroundTint="#FF018786"
+                android:text="@string/login"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
 
             <TextView
-        android:visibility="gone"
-        android:id="@+id/verifikasi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Klik untuk verifikasi email, buka email yang telah anda daftarkan" />
+                android:id="@+id/tv_to_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Tidak punya akun? Buat Akun"
+                android:textColor="#FF018786"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/verifikasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Klik untuk verifikasi email, buka email yang telah anda daftarkan"
+                android:visibility="gone" />
 
         </LinearLayout>
     </ScrollView>

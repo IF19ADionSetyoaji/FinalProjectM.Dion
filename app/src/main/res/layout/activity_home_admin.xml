@@ -16,7 +16,7 @@
         android:textSize="14sp"
         android:textStyle="bold"
         android:layout_marginTop="200dp"
-        android:backgroundTint="@color/blue"/>
+        android:backgroundTint="#FF018786"/>
     <Button
         android:id="@+id/see_book"
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:backgroundTint="@color/blue"/>
+        android:backgroundTint="#FF018786"/>
 
     <Button
         android:id="@+id/peminjam"
@@ -35,7 +35,7 @@
         android:layout_gravity="center_horizontal"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:backgroundTint="@color/blue"/>
+        android:backgroundTint="#FF018786"/>
 
     <Button
         android:id="@+id/logoutadmin"

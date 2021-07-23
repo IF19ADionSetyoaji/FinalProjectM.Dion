@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:backgroundTint="@color/light_blue"
+        android:backgroundTint="#FF018786"
         android:text="Login untuk admin"
         android:textSize="14sp"
         android:textStyle="bold" />
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/dark_blue"
+        android:backgroundTint="#FF018786"
         android:text="Login Untuk Pengguna"
         android:textSize="14sp"
         android:textStyle="bold" />

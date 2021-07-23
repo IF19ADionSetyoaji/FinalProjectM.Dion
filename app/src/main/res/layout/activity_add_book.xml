@@ -35,7 +35,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:text="TAMBAH BUKU BARU"
-                    android:textColor="@color/blue"
+                    android:textColor="#FF018786"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -112,7 +112,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:backgroundTint="@color/blue"
+                        android:backgroundTint="#FF018786"
                         android:text="SIMPAN" />
 
                     <Button
@@ -120,6 +120,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:backgroundTint="#FF018786"
                         android:text="Lihat Data" />
 
                 </LinearLayout>
