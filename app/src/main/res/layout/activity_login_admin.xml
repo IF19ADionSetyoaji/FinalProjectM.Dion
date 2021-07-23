@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="5dp"
+    android:padding="7dp"
     android:layout_gravity="center_horizontal"
     tools:context="com.dims13.peminjamanbuku.LoginAdminActivity">
 
@@ -19,17 +19,17 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="50dp">
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="LOGIN ADMIN"
-                android:textColor="#3F51B5"
-                android:layout_marginBottom="30dp"
+                android:layout_marginBottom="45dp"
                 android:layout_marginTop="70dp"
-                android:textSize="28sp"
+                android:textColor="#3F51B5"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 android:letterSpacing="0.03"
                 android:layout_gravity="center_horizontal"/>
@@ -38,13 +38,13 @@
                 android:id="@+id/edtPasswordAdmin"
                 android:inputType="textPassword"
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
+                android:layout_height="80dp"
                 android:drawableStart="@drawable/ic_lock"
                 android:hint=" Password"
                 android:background="#E4F5FD"
                 android:textColor="#3F51B5"
                 android:textStyle="bold"
-                android:textSize="14sp"
+                android:textSize="25sp"
                 android:layout_marginTop="20dp"
                 android:paddingLeft="20dp"/>
 
@@ -52,14 +52,14 @@
             <Button
                 android:id="@+id/btnLoginAdmin"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:backgroundTint="#ffd700"
+                android:layout_height="70dp"
+                android:backgroundTint="#025698"
                 android:text="Login"
-                android:textSize="18sp"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#FFF"
-                android:layout_marginTop="60dp"/>
+                android:layout_marginTop="70dp"/>
 
 
         </LinearLayout>
