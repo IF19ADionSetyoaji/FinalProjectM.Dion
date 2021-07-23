@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="240dp"
-    android:background="@drawable/logologin"
+    android:layout_height="350dp"
+    android:background="@drawable/pngwing_com"
     android:layout_gravity="center"
     tools:context="com.dims13.peminjamanbuku.SplashscreenActivity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="337dp"
         android:layout_height="match_parent"
-        android:text="Peminjaman Buku"
         android:layout_gravity="center"
-        android:textStyle="bold"
-        android:textSize="26sp"
-        android:textColor="#000080">
+        android:text=""
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        android:textStyle="bold">
 
     </TextView>
 </LinearLayout>
